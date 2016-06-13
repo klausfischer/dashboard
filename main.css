@@ -1,0 +1,18 @@
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial;
+	font-size: 16px;
+	-webkit-font-smoothing: antialiased;
+	box-sizing: border-box;
+}
+h2 {
+	margin-top: 0.5em;
+}
+.widget {
+	padding: 1em;
+	border: 1px solid #bbb;
+	margin: 1em;
+}
+main {
+	display: flex;
+	flex-direction: row;
+}

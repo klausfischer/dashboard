@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Dashboard</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+	<h1>Your Dashboard</h1>
+
+	<main class="widgets">
+		<section id="timezones" class="widget widget--timezones">
+			<header class="widget__header">
+				<h2>Timezones</h2>
+			</header>
+			<div class="widget__content">
+			</div>
+		</section>	
+
+		<section id="megamath" class="widget widget--megamath">
+			<header class="widget__header">
+				<h2>Megamath</h2>
+			</header>
+			<div class="widget__content">
+					<input type="text" name="inputval" id="megamath__inputval" placeholder="Number">
+				<button id="btnQuad">Quad</button>
+				<span id="megamath__result"></span>
+			</div>
+			
+		</section>
+	</main>
+	
+	<script src="jspm_packages/system.js"></script>
+    <script src="config.js"></script>
+    <script src="bundle.js"></script>
+    <script>
+      System.import('./app/scripts/app.js');
+    </script>
+	
+</body>
+</html>
