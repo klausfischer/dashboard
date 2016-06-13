@@ -3,7 +3,7 @@
 A quick example how to create, bundle and load ES 6 modules with [jspm](jspm.io).
 The result is a dashboard, containing 2 self-written modules where one is making use of [Moment Timezone](http://momentjs.com/timezone/) to demonstrate the usage of npm modules.
 
-[[https://github.com/klausfischer/dashboard/blob/master/img/screenshot.png|alt=Dashboard Websie with 2 modules]]
+![Dashboard Website with 2 modules](screenshot.png)
 
 ## Requirements
 
